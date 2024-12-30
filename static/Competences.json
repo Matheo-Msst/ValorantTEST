@@ -1,0 +1,78 @@
+{
+    "personnages": [
+        {
+        "nom_personnage": "BRIMSTONE",
+        "competences": [
+        {
+            "competence_1": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/9df59d490062acceb7c6ca32a3650b55718381f7.mp4",
+                "logo": "static/Competences/1-1-Breimstone.png",
+                "nom": "BOMBE INCENDIAIRE",
+                "description": "ÉQUIPEZ-vous d'un lance-grenades incendiaires. TIREZ pour lancer une grenade qui explose lorsqu'elle s'arrête au sol, créant une zone enflammée persistante qui blesse les joueurs."
+            }
+        },
+        {
+            "competence_2": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/8e0b72295747346b60c354765944f5233fb208f2.mp4",
+                "logo": "static/Competences/1-2-Breimstone.png",
+                "nom": "FRAPPE FUMIGÈNE",
+                "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour définir les endroits où les nuages de fumée de Brimstone atterriront. Utilisez le TIR SECONDAIRE pour confirmer, ce qui lance des nuages de fumée durables qui bloquent la vision dans la zone sélectionnée."
+            }
+        },
+        {
+            "competence_3": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/da2d65e4abc2129e284cf5248fd70925f093a0b3.mp4",
+                "logo": "static/Competences/1-3-Breimstone.png",
+                "nom": "BALISE STIMULANTE",
+                "description": "ÉQUIPEZ-vous d'une balise stimulante. TIREZ pour lancer la balise devant Brimstone. Lorsqu'elle touche le sol, la balise crée un champ qui confère Tir rapide aux joueurs."
+            }
+        },
+        {
+            "competence_4": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/ccd8e6c574b7017a2681e5d37c744f5a654327e3.mp4",
+                "logo": "static/Competences/1-4-Breimstone.png",
+                "nom": "RAYON ORBITAL",
+                "description": "ÉQUIPEZ-vous d'une carte tactique. TIREZ pour ordonner une frappe orbitale persistante à l'endroit sélectionné, ce qui inflige d'importants dégâts sur la durée aux joueurs pris dans la zone."
+            }
+        }
+        ]
+        },
+        {
+        "nom_personnage": "PHOENIX",
+        "competences": [
+        {
+            "competence_1": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/example_video_1.mp4",
+                "logo": "static/Competences/2-1-Phoenix.png",
+                "nom": "FIREBALL",
+                "description": "Lance une boule de feu qui explose à l'impact, infligeant des dégâts aux ennemis et soignant Phoenix et ses alliés proches."
+            }
+        },
+        {
+            "competence_2": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/example_video_2.mp4",
+                "logo": "static/Competences/2-2-Phoenix.png",
+                "nom": "RUN IT BACK",
+                "description": "Réinitialise la position de Phoenix à l'endroit où il a utilisé cette compétence, après un court délai."
+            }
+        },
+        {
+            "competence_3": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/example_video_3.mp4",
+                "logo": "static/Competences/2-3-Phoenix.png",
+                "nom": "CURING FLAMES",
+                "description": "Crée un mur de flammes qui bloque les ennemis et soigne les alliés traversant la zone."
+            }
+        },
+        {
+            "competence_4": {
+                "video": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/game_data/example_video_4.mp4",
+                "logo": "static/Competences/2-4-Phoenix.png",
+                "nom": "BLAZE",
+                "description": "Lance un mur de feu qui ralentit les ennemis et peut être utilisé pour échapper ou piéger des adversaires."
+            }
+        }
+        ]
+    }
+    ]
+}

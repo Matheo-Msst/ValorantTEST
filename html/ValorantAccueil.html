@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/static/css/pages.css">
+    <title>Accueil - Valorant</title>
+    
+</head>
+<body>
+    <h1>Personnages Valorant</h1>
+    <section class="HautPage">
+        <!-- <p>VOICI LE HAUT DE LA PAGE</p> -->
+    </section>
+    <section class="personnage-container">
+        {{range .Personnages}}
+        <div class="personnage">
+            <!-- Lien vers la page individuelle du personnage -->
+            <a href="/personnage/{{.Nom}}">
+                <img class="image-perso1" src="static/img/personnages/{{.ImageAcc}}" alt="{{.Nom}}">
+                <h2 class="boutons-acc">{{.Nom}}</h2>
+            </a>
+        </div>
+        {{end}}
+    </section>
+</body>
+</html>
